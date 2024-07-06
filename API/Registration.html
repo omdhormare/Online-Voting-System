@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title>Registration</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+             background-color: #59ce8f;
+        }
+        h1 {
+            color: #ff1d58; 
+        }
+        
+        input[type="text"],
+        input[type="number"],
+        input[type="password"],
+        input[type="file"] {
+            padding: 10px;
+            margin: 5px;
+        }
+        
+        input[type="text"],
+        input[type="password"] {
+            width: 200px;
+        }
+
+        input[type="number"] {
+            width: 250px;
+        }
+
+        input[type="file"] {
+            width: 300px;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid #333;
+            margin: 20px 0;
+        }
+        
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+select {
+    padding: 10px;
+    width: 100px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+ a {
+ color: blue; 
+text-decoration: none;
+}
+    </style>
+</head>
+<body align="center">
+    <form method="POST" action="Register.php" enctype="multipart/form-data">
+        <hr>
+        <h1>Registration Form</h1>
+        <hr>
+        <input type="text" nam e="t3" size="25"placeholder="Enter Your Name" required>&nbsp;&nbsp;
+        <input type="number" name="t4" size="25"  placeholder="Enter Your Phone No" required><br><br>
+        <input type="password" name="t5" placeholder="Password" size="25" required>&nbsp;&nbsp;&nbsp;&nbsp;
+       <input type="password" name="t6" placeholder="confirm Password" size="25" required><br>&nbsp;
+        <input type="text" name="t7" placeholder="Enter Your Address" size="25" required>
+        <br><br><br>
+        <form action="register.php" method="post" enctype="multipart/form-data">
+        Upload image: <input type="file" name="photo" required><br><br>        Select Role :<select name="role">
+       <option value="1">Voter</option>
+       <option value="2">Group</option>
+        <select><br><br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Registration"><br><br>
+        Already User?<a href="login.html">Login Here</a>
+    </form>
+</body>
+</html>
+<hr>

@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color:  #a28089;
+}
+
+h2 {
+    color: #666;
+}
+
+h2.login-title {
+   font-family: Arial, sans-serif;
+    color: #51e2f5;
+}
+
+input[type="number"],
+input[type="password"] 
+{
+    padding: 15px;
+    width: 250px;
+    margin: 10px;
+}
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+select {
+    padding: 10px;
+    width: 100px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+a {
+    color: #0074cc;
+    text-decoration: none;
+}
+hr {
+    border: none;
+    border-top: 2px solid #333;
+    margin: 20px 0;
+}

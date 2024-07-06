@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    font-family:sans-serif;
+    background-color:  rgb(82, 8, 66);
+}
+
+#headersection {
+    background-color: #125050;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button#Logout {
+    background-color: #f44336;
+}
+
+#profile {
+    
+    background-color:rgb(85, 75, 75);
+  
+}
+
+#profile img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#Group{
+    width:100%;
+    padding: 20px;
+    float:left;
+}
+
+#Group img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#votebtn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
